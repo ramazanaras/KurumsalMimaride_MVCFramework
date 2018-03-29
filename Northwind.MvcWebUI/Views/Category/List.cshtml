@@ -1,0 +1,19 @@
+﻿@* bu bir partial view'dir *@
+
+@model List<Northwind.Entities.Category>
+
+
+
+@Html.RouteLink("Home", new { controller = "Product", action = "Index", category = 0 })
+<br />
+
+@foreach (var category in Model)
+{
+    //url link
+    //http://localhost:3438/Product/Index?category=(category.CategoryID)
+    @Html.RouteLink(category.CategoryName, new { controller="Product",action="Index",category=category.CategoryID })
+    
+    
+    
+    
+}

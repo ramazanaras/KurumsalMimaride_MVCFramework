@@ -1,0 +1,65 @@
+﻿@* custom helperı görmesi için Viewin kendi webconfigine aşağıdakini ekledik
+    <!--ekledik-->
+     <add namespace="Northwind.MvcWebUI.HtmlHelpers"/>
+
+
+*@
+
+@using Northwind.MvcWebUI.HtmlHelpers
+
+
+@model Northwind.MvcWebUI.Models.ProductViewModel
+
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @foreach (var product in Model.Products)
+        {
+
+            @product.ProductName
+            <span>&nbsp;</span>
+            @product.UnitPrice
+
+            <span>&nbsp;</span>
+
+            using(Html.BeginForm("AddToCart","Cart"))
+            {
+              
+                @Html.Hidden("productId",product.ProductID)
+    
+                <input type="submit"  value="Add to cart"/>
+                
+                
+            }
+
+
+
+            <br />
+
+
+
+
+
+
+
+        }
+
+
+        @Html.Pager(Model.PagingInfo)
+
+
+
+
+    </div>
+</body>
+</html>

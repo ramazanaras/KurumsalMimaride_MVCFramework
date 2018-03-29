@@ -1,0 +1,12 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\Northwind.Dal.dll.config
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\Northwind.Dal.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\Northwind.Dal.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\EntityFramework.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\Northwind.Entities.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\EntityFramework.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\obj\Debug\Northwind.Dal.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\obj\Debug\Northwind.Dal.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Dal\obj\Debug\Northwind.Dal.pdb

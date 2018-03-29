@@ -1,0 +1,5 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Entities\bin\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Entities\bin\Debug\Northwind.Entities.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Entities\obj\Debug\Northwind.Entities.pdb

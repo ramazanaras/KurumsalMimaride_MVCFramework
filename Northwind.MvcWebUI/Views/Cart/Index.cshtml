@@ -1,0 +1,57 @@
+﻿@model Northwind.Entities.Cart
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sepetteki Ürünler</h2>
+
+
+
+
+<table>
+    <tr>
+        <td>Product Name</td>
+        <td>Unit Price</td>
+        <td>Quantity</td>
+        <td>Tutar</td>
+    </tr>
+
+
+    @foreach (Northwind.Entities.CartLine line in Model.Lines)
+    {
+        <tr>
+            <td>@line.Product.ProductName</td>
+            <td>@line.Product.UnitPrice.Value.ToString("c")</td>
+            <td>@line.Quantity</td>
+            <td>@((line.Quantity * line.Product.UnitPrice.Value).ToString("c"))</td>
+
+
+
+
+
+
+
+            <td>
+                @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                {
+                    @Html.Hidden("productId",line.Product.ProductID)
+                    <input type="submit" value="Sepetten Çıkar" />
+
+                }
+            </td>
+
+
+            </tr>
+
+
+    }
+
+
+</table>
+
+
+<p align="center">
+    <a href="/Cart/Checkout">Checkout Now (Satın Al)</a>
+</p>

@@ -1,0 +1,13 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Bll.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Bll.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Dal.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Interfaces.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\EntityFramework.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Dal.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Entities.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\Northwind.Interfaces.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\bin\Debug\EntityFramework.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\obj\Debug\Northwind.Bll.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\obj\Debug\Northwind.Bll.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Bll\obj\Debug\Northwind.Bll.pdb

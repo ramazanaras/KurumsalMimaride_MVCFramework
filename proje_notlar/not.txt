@@ -1,0 +1,74 @@
+Bll-->Ýþ katmaný(Business logic layer)
+DAL--> veritabaný ile doðrudan iletiþime geçen katman(data access layer)
+Service Host-->uygulamayý yayýna kaldýran katman(WCfIISHost)
+
+Single Responsibility -->her katmanýn görevi bellidir.(Solidin S'si )
+
+Dal-->Bll->>Service 
+
+Uygulamayý dikine kesen katman katman -->Cross Cutting Concern katmaný (Loglama ,cache,validasyon,exception handling) her projede bulunur.
+
+Abstract-->soyut sýnýflarý içeren klasör.(interface ,abstact) -->iþ katmaný entity frameworke baðýmlý kalmayacak
+Concrete-->somut
+
+Soyutlama tekniklerini ayaða kaldýrmak için interface kullanýrýz(soyutlama tekniði)
+
+Dal katmanýna Entitiesi referans verdik.
+
+
+Concrete klasörü -->proje baþka bir teknolojiye geçtiðinde geçiþi burdan yapabiliriz.(EF,Nhibernate)
+
+DAl projesine nugettan entity framework yükle.DbContext sýnýfý ,FirstOrdefault() gibi metotlar için gerekli
+
+
+Dal-->>Bll-->Service-
+
+
+Bilgi:Service sýnýflarýnýn  constructor olmaz  genelde
+
+
+
+//////////////////////////////WCF servisin yayýna alýnmasý
+WCFIISHost katmanýndaki webconfige ekledik.
+  <!--ekledik-->
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true">
+      <serviceActivations>
+        <add service="Northwind.WcfServiceLibrary.Concrete.ProductService" relativeAddress="Product.svc" />  //adresteki adresi Product.svc adýyla yayýna çýkarmak demek.
+      </serviceActivations>
+
+
+
+//Hata:
+ServiceHost yönergesinde Service özniteliði olarak saðlanan veya system.serviceModel/serviceHostingEnvironment/serviceActivations yapýlandýrma öðesinde saðlanan 'Northwind.WcfLibrary.Concrete.ProductService' türü bulunamadý.
+Çözümü WCFIISHost katmanýnda  referanslara WcfLibrary projesini eklemek.Çünkü ProductService sýnýfýný tanýmýyor
+
+
+WCFIIShost katmanýný yayýna açmak için sað týk  set as startup project diyerek projeyi baþlatýrýz.(http://localhost:3427/Product.svc)
+
+///////////////
+UI katmanýnda webcofige ekledik(Code first için. hangi veritabanýnda çalýþacaðýmýzý belirttik.)
+name kýsmýna yazdýðýmýz ile Context ismi ayný olmalý
+  <connectionStrings>
+    <add name="NorthwindContext" connectionString="Data Source=.;Initial Catalog=Northwind;Integrated Security=True;MultipleActiveResultSets=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+
+////
+Ýþ katmanýný(BLL) yayýna çýkarmak için WCFService projesi oluþturduk
+
+SErvice layerý WCFIIshost katmný aracýlýðýyla yayýna çýkardýk
+
+Interface katmanýyla baðýmlýlýklarý azalttýk.
+
+
+//WCFIISHost un webconfigine connection stringi ekledik.uygulamanýn servisten çalýþabilmesi için yaptýk
+
+  <!--ekledik-->
+  <connectionStrings>
+    <add name="NorthwindContext" connectionString="Data Source=.;Initial Catalog=Northwind;Integrated Security=True;MultipleActiveResultSets=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+
+

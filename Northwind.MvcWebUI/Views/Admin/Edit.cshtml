@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @* kendisi textboxları modele göre oluşturucak *@
+    @Html.EditorForModel()
+
+
+
+    <input type="submit" value="Save" />
+
+
+}

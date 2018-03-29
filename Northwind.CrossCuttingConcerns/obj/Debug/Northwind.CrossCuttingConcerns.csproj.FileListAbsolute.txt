@@ -1,0 +1,12 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Northwind.CrossCuttingConcerns.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Northwind.CrossCuttingConcerns.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Castle.Core.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.Extensions.Interception.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.Extensions.Interception.DynamicProxy.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.Extensions.Interception.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\bin\Debug\Ninject.Extensions.Interception.DynamicProxy.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\obj\Debug\Northwind.CrossCuttingConcerns.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\obj\Debug\Northwind.CrossCuttingConcerns.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.CrossCuttingConcerns\obj\Debug\Northwind.CrossCuttingConcerns.pdb

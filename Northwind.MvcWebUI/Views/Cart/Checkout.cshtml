@@ -1,0 +1,22 @@
+﻿@model Northwind.Entities.ShippingDetails
+@{
+    ViewBag.Title = "Checkout";
+}
+
+<h2>SATIN AL</h2>
+
+
+
+@using (Html.BeginForm()) 
+{
+    //kendisi textboxları oluşturuyor modele göre
+   @Html.EditorForModel()
+    
+
+    
+    <input type="submit" value="Alışverişi Bitir."/>
+
+}
+
+
+

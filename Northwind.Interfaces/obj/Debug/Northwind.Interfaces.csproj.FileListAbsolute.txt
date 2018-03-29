@@ -1,0 +1,7 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\bin\Debug\Northwind.Interfaces.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\bin\Debug\Northwind.Interfaces.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\bin\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\bin\Debug\Northwind.Entities.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\obj\Debug\Northwind.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\obj\Debug\Northwind.Interfaces.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.Interfaces\obj\Debug\Northwind.Interfaces.pdb

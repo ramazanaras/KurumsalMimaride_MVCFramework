@@ -1,0 +1,16 @@
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.WcfLibrary.dll.config
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.WcfLibrary.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.WcfLibrary.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Bll.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Dal.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Entities.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Interfaces.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\EntityFramework.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Bll.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Dal.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Entities.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\Northwind.Interfaces.pdb
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\bin\Debug\EntityFramework.xml
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\obj\Debug\Northwind.WcfLibrary.csprojResolveAssemblyReference.cache
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\obj\Debug\Northwind.WcfLibrary.dll
+C:\Users\RAMAZAN\Desktop\Northwind\Northwind.WcfLibrary\obj\Debug\Northwind.WcfLibrary.pdb

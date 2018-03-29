@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <div>
+
+        @{
+            //partial view çağır
+            Html.RenderAction("CartSummary","Cart");
+            
+        }
+
+        <div>
+            Northwind Projesine hoşgeldiniz!!!.
+        </div>
+        <br />
+        <div>
+            Categories
+
+            @* Actionı çağır ve partial view'i getir. *@
+            @{
+                Html.RenderAction("List", "Category");
+            }
+
+        </div>
+        <span>---------------------------------------------------------</span>
+
+        <br /><br /><br />
+
+        <div>
+            @RenderBody()
+        </div>
+
+    </div>
+</body>
+</html>

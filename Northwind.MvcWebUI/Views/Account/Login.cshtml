@@ -1,0 +1,33 @@
+﻿@model Northwind.Entities.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Giriş Yap</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            //controllerdaki ModelState.AddModelErrorstaki hataları gösterir.
+            @Html.ValidationSummary()  
+            
+            //textboxları kendi oluşturucak modele göre
+            @Html.EditorForModel()
+            
+            
+            <input type="submit"  value="Login"/>
+        }
+
+
+
+    </div>
+</body>
+</html>

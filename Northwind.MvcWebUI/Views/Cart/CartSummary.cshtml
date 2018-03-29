@@ -1,0 +1,13 @@
+﻿@* bu bir partial viewdir *@
+
+@model Northwind.Entities.Cart
+
+
+<b>Sepetiniz (@Model.Lines.Sum(x=>x.Quantity)) :</b>
+
+@Model.Total.ToString("c")
+
+@Html.ActionLink("Siparişi tamamla","Index","Cart")
+
+
+

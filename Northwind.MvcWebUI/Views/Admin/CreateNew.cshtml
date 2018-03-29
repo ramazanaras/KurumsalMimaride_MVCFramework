@@ -1,0 +1,19 @@
+﻿@model Northwind.Entities.Product
+@{
+    ViewBag.Title = "CreateNew";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Create New Product</h2>
+
+@using (Html.BeginForm())
+{
+    @* kendisi textboxları modele göre oluşturucak *@
+    @Html.EditorForModel()
+
+
+
+    <input type="submit" value="Save" />
+
+
+}
